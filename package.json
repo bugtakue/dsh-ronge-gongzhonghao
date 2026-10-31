@@ -1,0 +1,47 @@
+{
+  "name": "dsh-ronge-gongzhonghao",
+  "version": "0.1.0",
+  "description": "DSH plugin + skill for WeChat long-form writing: AI-flavor linter, WeChat-safe HTML builder, de-AI writing rules and 750px figure system.",
+  "type": "module",
+  "main": "index.js",
+  "exports": {
+    ".": "./index.js"
+  },
+  "files": [
+    "index.js",
+    "cordis.patch.yml",
+    "skill/**",
+    "docs/screenshot.png",
+    "screenshots.json",
+    "README.md",
+    "LICENSE"
+  ],
+  "dsh": {
+    "bundle": {
+      "patch": "./cordis.patch.yml"
+    }
+  },
+  "keywords": [
+    "deepseek-harness",
+    "dsh",
+    "dsh-plugin",
+    "wechat",
+    "gongzhonghao",
+    "writing",
+    "skill",
+    "chinese"
+  ],
+  "author": "bugtakue",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bugtakue/dsh-ronge-gongzhonghao.git"
+  },
+  "homepage": "https://github.com/bugtakue/dsh-ronge-gongzhonghao#readme",
+  "bugs": {
+    "url": "https://github.com/bugtakue/dsh-ronge-gongzhonghao/issues"
+  },
+  "engines": {
+    "node": ">=20"
+  }
+}
